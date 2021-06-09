@@ -1,0 +1,13 @@
+{
+  "siteTitle": "John Malandriner Webpage",
+  "menu": [
+    {
+      "title": "Home",
+      "path": "/"
+    },
+    {
+      "title": "Blog",
+      "path": "/blog"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+<header>
+  <h1># {{site.siteTitle}} #</h1>
+  <nav>
+    <ul>
+      {% for item in site.menu %}
+        <li><a href="{{item.path}}" class="{{ 'link-active' if item.path in page.url }}">{{item.title}}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>

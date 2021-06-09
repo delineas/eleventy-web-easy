@@ -1,0 +1,19 @@
+{
+  "name": "eleventy-web-easy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx eleventy",
+    "serve": "npx eleventy --serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "axios": "^0.21.1",
+    "luxon": "^1.27.0",
+    "outdent": "^0.8.0"
+  }
+}
